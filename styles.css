@@ -1,0 +1,137 @@
+ body{
+    font-family: 'Jockey One', sans-serif;
+    padding: 0 2%;
+    margin: 0;
+    font-size: 40px;
+}
+ nav{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     background-color:rgb(211, 112, 32);
+     position:sticky;
+     top: 0;
+    margin: 7px;
+    ;
+}
+    
+     
+   a:link{
+      text-decoration: none;
+      
+   }
+
+
+nav .profile{
+        display: flex;
+        align-items: center;
+    }
+
+nav .profile img {
+    width: 122px;
+    height: 122px;
+    border-image-width: 70%;
+}
+
+nav .profile h1{
+    font-size: 35px;
+    margin-left: 10px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+    font-size: 25px;
+    font-family:fantasy;
+    margin-right: 20px;
+    
+}
+nav ul li:hover{
+    border-bottom-color: #000000fb;
+}
+.page-content{
+    margin: 5%;
+}
+.page-content header{
+    margin-top: 10%;
+    max-width: 70%;
+     }
+.page-content header h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-family:inherit;
+    font-size: 5vw;
+    }
+.page-content header p{
+    line-height: 30px;
+    color:maroon;
+    font-family:uppercase;
+    font-size: 30px;
+}
+.page-content header button{
+    background-color: inherit;
+    border: none;
+    outline:none;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: inherit;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    cursor: pointer;
+}
+.page-content header button:hover{
+    color: maroon;
+    border-bottom:black;}
+.page-content header {
+    margin-top: 3%;
+    max-width: 100%;
+}
+
+.page-content .presentation-image{
+    margin-top: 5%;
+    }
+.page-content .presentation-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    margin-top: 10%;
+    display:flexbox;
+    justify-content:flex-end;
+    background-color: rgb(14, 13, 12);
+    color:white;
+    margin: 10px;
+    padding: 10px;
+}
+footer h4{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0mm;
+    margin-bottom: 10px;
+
+}
+
+footer p{
+    font-size: 30px;
+    color:rgb(105, 61, 11);
+    cursor: pointer;
+    font-family: 'Anton', sans-serif;
+    padding-top:none;
+    align-self: auto;
+   
+
+}
+footer p:hover{
+    color: rgb(143, 134, 134);
+}
